@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>YSL Y EDP</title>
+</head>
+
+<body style="background:#0a0a0a;color:white;font-family:Arial;padding:30px;">
+
+<h1 style="color:gold;">YSL Y Eau de Parfum</h1>
+<img src="https://i.imgur.com/eN7GQJH.png" style="width:300px;max-width:100%;">
+
+<p><strong>Price:</strong> $95</p>
+<p>Fresh, bold, long-lasting fragrance for everyday luxury.</p>
+
+<ul>
+<li>Top: Apple, Bergamot</li>
+<li>Middle: Sage, Juniper</li>
+<li>Base: Tonka Bean, Amberwood</li>
+</ul>
+
+<a href="https://instagram.com" style="color:gold;">Buy via Instagram</a><br><br>
+<a href="https://paypal.me/" style="color:gold;">Buy with PayPal</a><br><br>
+
+<a href="index.html" style="color:gold;">← Back to Shop</a>
+
+</body>
+</html>
