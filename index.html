@@ -2,51 +2,62 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Fragrance ReUp</title>
+<title>ASRSELLS</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <style>
 body {
   margin: 0;
+  background: black;
+  color: white;
   font-family: "Helvetica Neue", Arial, sans-serif;
-  background: #000;
-  color: #fff;
 }
 
-/* HEADER */
-header {
-  padding: 60px 20px;
+/* FADE ANIMATIONS */
+.fade {
+  opacity: 0;
+  animation: fadeIn 1.8s ease forwards;
+}
+.fade.delay {
+  animation-delay: 0.8s;
+}
+@keyframes fadeIn {
+  to { opacity: 1; }
+}
+
+/* HERO */
+.hero {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   text-align: center;
+  background:
+    linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)),
+    url("https://i.imgur.com/9nKJp4Z.png") center/contain no-repeat;
 }
 
 .logo {
-  font-size: 36px;
-  letter-spacing: 8px;
+  font-size: 44px;
+  letter-spacing: 12px;
   font-weight: 300;
 }
 
 .tagline {
-  margin-top: 12px;
+  margin-top: 16px;
   font-size: 13px;
   color: #aaa;
-}
-
-/* HERO IMAGE */
-.hero {
-  width: 100%;
-  height: 320px;
-  background: url("https://i.imgur.com/9nKJp4Z.png") center/contain no-repeat;
-  margin-bottom: 60px;
+  letter-spacing: 3px;
 }
 
 /* PRODUCTS */
 .products {
   max-width: 1100px;
   margin: auto;
-  padding: 0 20px 80px;
+  padding: 80px 20px;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 60px;
+  gap: 80px;
 }
 
 .card {
@@ -60,76 +71,74 @@ header {
 }
 
 .card h2 {
-  margin: 20px 0 5px;
-  font-size: 16px;
+  margin: 20px 0 6px;
+  font-size: 15px;
   font-weight: 400;
+  letter-spacing: 1px;
 }
 
 .price {
-  font-size: 14px;
-  color: #bbb;
+  font-size: 13px;
+  color: #aaa;
 }
 
 .btn {
   display: inline-block;
   margin-top: 14px;
-  font-size: 13px;
-  color: #fff;
+  font-size: 12px;
+  color: white;
   text-decoration: none;
   border-bottom: 1px solid white;
   padding-bottom: 4px;
 }
 
-.btn:hover {
-  opacity: 0.7;
-}
-
-/* FOOTER */
 footer {
   text-align: center;
   padding: 40px 0;
   font-size: 11px;
-  color: #666;
+  color: #555;
 }
 </style>
 </head>
 
 <body>
 
-<header>
-  <div class="logo">FRAGRANCE REUP</div>
-  <div class="tagline">EAU DE PARFUM · AUTHENTIC · LUXURY</div>
-</header>
+<!-- HERO -->
+<section class="hero">
+  <div>
+    <div class="logo fade">ASRSELLS</div>
+    <div class="tagline fade delay">LUXURY FRAGRANCES · AUTHENTIC</div>
+  </div>
+</section>
 
-<div class="hero"></div>
-
+<!-- PRODUCTS -->
 <section class="products">
 
-  <div class="card">
+  <div class="card fade">
     <img src="https://i.imgur.com/eN7GQJH.png">
     <h2>YSL Y EDP</h2>
     <div class="price">$95</div>
     <a class="btn" href="product-ysl.html">DISCOVER</a>
   </div>
 
-  <div class="card">
+  <div class="card fade">
     <img src="https://i.imgur.com/6bQKZ8J.png">
     <h2>Dior Sauvage</h2>
     <div class="price">$90</div>
-    <a class="btn" href="product-dior.html">DISCOVER</a>
+    <a class="btn" href="#">DISCOVER</a>
   </div>
 
-  <div class="card">
+  <div class="card fade">
     <img src="https://i.imgur.com/9nKJp4Z.png">
     <h2>Bleu de Chanel</h2>
     <div class="price">$110</div>
-    <a class="btn" href="product-chanel.html">DISCOVER</a>
+    <a class="btn" href="#">DISCOVER</a>
   </div>
 
 </section>
 
 <footer>
-© 2026 FRAGRANCE REUP
+© 2026 ASRSELLS
 </footer>
 
 </body>
