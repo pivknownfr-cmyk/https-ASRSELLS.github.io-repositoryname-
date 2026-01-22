@@ -8,20 +8,9 @@
 <style>
 body {
   margin: 0;
-  background: black;
-  color: white;
+  background: #000;
+  color: #fff;
   font-family: "Helvetica Neue", Arial, sans-serif;
-}
-
-/* FADE ANIMATIONS */.fade {
-  animation-delay: 0.3s;
-}
-}
-.fade.delay {
-  animation-delay: 0.8s;
-}
-@keyframes fadeIn {
-  to { opacity: 1; }
 }
 
 /* HERO */
@@ -32,21 +21,28 @@ body {
   justify-content: center;
   text-align: center;
   background:
-    linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)),
+    linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)),
     url("https://i.imgur.com/9nKJp4Z.png") center/contain no-repeat;
 }
 
-.logo {
-  font-size: 44px;
+.hero h1 {
+  font-size: 48px;
   letter-spacing: 12px;
   font-weight: 300;
+  animation: fade 2s ease forwards;
 }
 
-.tagline {
-  margin-top: 16px;
+.hero p {
+  margin-top: 15px;
   font-size: 13px;
   color: #aaa;
   letter-spacing: 3px;
+  animation: fade 2.5s ease forwards;
+}
+
+@keyframes fade {
+  from { opacity: 0; }
+  to { opacity: 1; }
 }
 
 /* PRODUCTS */
@@ -56,7 +52,7 @@ body {
   padding: 80px 20px;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 80px;
+  gap: 70px;
 }
 
 .card {
@@ -73,27 +69,37 @@ body {
   margin: 20px 0 6px;
   font-size: 15px;
   font-weight: 400;
-  letter-spacing: 1px;
 }
 
-.price {
+.card span {
   font-size: 13px;
   color: #aaa;
 }
 
-.btn {
+.card a {
   display: inline-block;
-  margin-top: 14px;
+  margin-top: 12px;
   font-size: 12px;
-  color: white;
+  color: #fff;
   text-decoration: none;
-  border-bottom: 1px solid white;
-  padding-bottom: 4px;
+  border-bottom: 1px solid #fff;
+}
+
+.footer-link {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.footer-link a {
+  color: #fff;
+  text-decoration: none;
+  border-bottom: 1px solid #fff;
+  font-size: 12px;
 }
 
 footer {
   text-align: center;
-  padding: 40px 0;
+  padding: 30px;
   font-size: 11px;
   color: #555;
 }
@@ -102,41 +108,26 @@ footer {
 
 <body>
 
-<!-- HERO -->
 <section class="hero">
   <div>
-    <div class="logo fade">ASRSELLS</div>
-    <div class="tagline fade delay">LUXURY FRAGRANCES · AUTHENTIC</div>
+    <h1>ASRSELLS</h1>
+    <p>LUXURY FRAGRANCES · AUTHENTIC</p>
   </div>
 </section>
 
-<!-- PRODUCTS -->
 <section class="products">
 
-  <div class="card fade">
+  <div class="card">
     <img src="https://i.imgur.com/eN7GQJH.png">
-    <h2>YSL Y EDP</h2>
-    <div class="price">$80</div>
-<a class="btn" href="product-ysl.html">DISCOVER</a>
-<a class="btn" href="https://cash.app/$AndresTabares1">CASH APP</a>
-
-  <div class="card fade">
-    <img src="https://i.imgur.com/6bQKZ8J.png">
-    <h2>Dior Sauvage</h2>
-    <div class="price">$75</div>
-    <a class="btn" href="#">DISCOVER</a>
-  </div>
-
-  <div class="card fade">
-    <img src="https://i.imgur.com/9nKJp4Z.png">
-    <h2>Bleu de Chanel</h2>
-    <div class="price">$80</div>
-    <a class="btn" href="#">DISCOVER</a>
+    <h2>YSL Y Eau de Parfum</h2>
+    <span>$95</span><br>
+    <a href="product-ysl.html">DISCOVER</a>
   </div>
 
 </section>
-  <div style="text-align:center;margin-bottom:60px;">
-  <a class="btn" href="how-to-order.html">HOW TO ORDER</a>
+
+<div class="footer-link">
+  <a href="how-to-order.html">HOW TO ORDER</a>
 </div>
 
 <footer>
