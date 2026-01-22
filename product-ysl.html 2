@@ -6,39 +6,49 @@
 
 <body style="margin:0;background:black;color:white;font-family:Helvetica Neue,Arial;">
 
-<div style="min-height:100vh;display:flex;align-items:center;justify-content:center;text-align:center;animation:fadeIn 1.5s ease forwards;opacity:0;">
+<div style="min-height:100vh;display:flex;align-items:center;justify-content:center;text-align:center;animation:fade 1.5s ease forwards;opacity:0;">
   <div>
+
     <h1 style="letter-spacing:6px;font-weight:300;">YSL Y</h1>
-    <p style="color:#aaa;">EAU DE PARFUM</p>
+    <p style="color:#aaa;letter-spacing:2px;">EAU DE PARFUM</p>
 
     <img src="https://i.imgur.com/eN7GQJH.png" style="width:300px;max-width:90%;margin:40px 0;">
 
-    <p style="max-width:500px;margin:auto;color:#ccc;">
-      A bold and modern fragrance built for confidence and elegance.
+    <p style="max-width:520px;margin:auto;color:#ccc;line-height:1.9;">
+      YSL Y Eau de Parfum is a bold yet clean fragrance designed for the modern man.
+      It blends fresh citrus, aromatic herbs, and warm woods for a confident,
+      long-lasting signature scent.
     </p>
 
-    <p style="margin-top:30px;">$95</p>
+    <div style="max-width:520px;margin:40px auto;color:#bbb;text-align:left;font-size:14px;line-height:2;">
+      <p><strong>Fragrance Family:</strong> Fresh Woody</p>
+      <p><strong>Top Notes:</strong> Apple, Bergamot, Ginger</p>
+      <p><strong>Middle Notes:</strong> Sage, Juniper Berry</p>
+      <p><strong>Base Notes:</strong> Tonka Bean, Amberwood, Cedar</p>
+      <p><strong>Longevity:</strong> 8–10 hours</p>
+      <p><strong>Projection:</strong> Moderate to strong</p>
+      <p><strong>Best For:</strong> Daily wear, nights out, all seasons</p>
+      <p><strong>Condition:</strong> Brand new • 100% authentic</p>
+    </div>
 
-<a href="https://instagram.com" style="color:white;border-bottom:1px solid white;text-decoration:none;">
-  BUY VIA INSTAGRAM
-</a><br><br>
+    <p style="font-size:16px;margin-top:20px;">$95</p>
 
-<a href="https://cash.app/$AndresTabares1" style="color:white;border-bottom:1px solid white;text-decoration:none;">
-  BUY WITH CASH APP
-</a><br><br>
-<p style="margin-top:30px;color:#aaa;font-size:13px;">
-After sending payment, DM us on Instagram with:
-<br>• Your full name
-<br>• Shipping address
-<br>• Screenshot of payment
-</p>
+    <a href="https://cash.app/$AndresTabares1" style="color:white;border-bottom:1px solid white;text-decoration:none;">
+      BUY WITH CASH APP
+    </a><br><br>
+
+    <p style="font-size:13px;color:#aaa;">
+      After payment, DM us on Instagram with your name, address,
+      and screenshot of payment.
+    </p>
 
     <a href="index.html" style="color:#666;text-decoration:none;">← BACK TO ASRSELLS</a>
+
   </div>
 </div>
 
 <style>
-@keyframes fadeIn {
+@keyframes fade {
   to { opacity: 1; }
 }
 </style>
