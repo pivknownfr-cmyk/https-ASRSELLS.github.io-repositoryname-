@@ -4,28 +4,25 @@
 <title>YSL Y EDP</title>
 </head>
 
-<body style="background:#0a0a0a;color:white;font-family:Arial;padding:30px;">
+<body style="margin:0;background:black;color:white;font-family:Helvetica Neue,Arial;">
 
-<h1 style="color:gold;">YSL Y Eau de Parfum</h1>
-<img src="https://i.imgur.com/eN7GQJH.png" style="width:300px;max-width:100%;">
+<div style="padding:40px;text-align:center;">
+  <h1 style="font-weight:300;letter-spacing:4px;">YSL Y</h1>
+  <p style="color:#aaa;">EAU DE PARFUM</p>
 
-<p><strong>Price:</strong> $95</p>
-<p>Fresh, bold, long-lasting fragrance for everyday luxury.</p>
+  <img src="https://i.imgur.com/eN7GQJH.png" style="width:300px;max-width:90%;margin:40px 0;">
 
-<ul>
-<li>Top: Apple, Bergamot</li>
-<li>Middle: Sage, Juniper</li>
-<li>Base: Tonka Bean, Amberwood</li>
-</ul>
+  <p style="max-width:500px;margin:auto;color:#ccc;">
+    A bold, clean fragrance designed for modern luxury.
+  </p>
 
-<a href="https://instagram.com" style="color:gold;">📩 Buy via Instagram DM</a><br><br>
+  <p style="margin-top:30px;">$95</p>
 
-<a href="https://cash.app/$AndresTabares1" style="color:gold;">💵 Buy with Cash App</a><br><br>
-<h3 style="color:gold;">Customer Reviews</h3>
-<p>★★★★★ “Smells amazing, lasts all day.”</p>
-<p>★★★★★ “Fast shipping, legit bottle.”</p>
-<p>★★★★☆ “Would buy again.”</p>
-<a href="index.html" style="color:gold;">← Back to Shop</a>
+  <a href="https://instagram.com" style="color:white;border-bottom:1px solid white;text-decoration:none;">BUY VIA INSTAGRAM</a><br><br>
+  <a href="https://cash.app/$AndresTabares1" style="color:gold;">💵 Buy with Cash App</a><br><br>
+
+  <a href="index.html" style="color:#777;text-decoration:none;">← BACK</a>
+</div>
 
 </body>
 </html>
